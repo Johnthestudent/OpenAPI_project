@@ -20,5 +20,18 @@
 <?php
     //Through the include, this server reaches the secret server that is handling the API.
     include("server2.php");
-    echo "<h3>$letmehaveit</h3>";
+    if($usage > 0)
+    {
+        echo "<h3>$letmehaveit</h3>";
+        echo "<h3>You can view the secret on this surface $usage times</h3>";
+    }
+    else if($usage == 0)
+    {
+        echo "<h3>$letmehaveit</h3>";
+        echo "<h3>Warning! You are using up your last chance of viewing the secret on this surface!</h3>";
+    }
+    else if($usage < 0)
+    {
+        echo "<h3>Secret is no longer available, it has been removed from the list!</h3>";
+    }
 ?>

@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Secret Server Coding Task</title>
-    <link rel="stylesheet" href="style.css?v=3" />
+    <link rel="stylesheet" href="style.css?v=4" />
   </head>
   <body>
     <div class="majorcontent">
-      <h1>Task for implementing a secret server API</h1>
+      <h1>Task for implementing a secret server API version 2</h1>
       <h3>Enter a numeric value between 1 and 10 to get the n-th secret</h3>
       <h4>
         The given numeric value will be part of the URL, which will present the
@@ -18,7 +18,8 @@
       <form action="formhandler.php" method="get" id="firstform">
         <!--In this form, a number between 1 and 10 can be typed in, in order to get the value of the n-th secret.-->
         <label for="quantity">Quantity <i>n</i> (between 1 and 10):</label>
-        <input type="number" id="quantity" name="quantity" min="1" max="10" />
+        <input type="number" id="quantity" name="quantity" min="1" max="10" /><br />
+        Update existing secret: <input type="text" name="friss" size="100" /><br />
         <input
           type="submit"
           name="jsonfile"

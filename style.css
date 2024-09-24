@@ -86,3 +86,10 @@ h2 {
 .buttons:hover {
   cursor: pointer;
 }
+
+/*Style of the update*/
+.updater
+{
+  width: 150px;
+  height: 30px;
+}

@@ -28,6 +28,9 @@ Add new secret button, and then go back to the forms section to click on the Sub
 8.) Clicking on the Download JSON button, you can download the n-th secret's text as a JSON file. For the Download XML button, the same data can be downloaded as a XML file.
 Follow step 7th if secret cannot be found.
 
+Bonus step -> In this new version (version 2), you are given the chance to overwrite the text of the existing secret. Once you overwrite it, and then submit the number
+mentinoed in step 5, you will see the new secret.
+
 Helpful resources:
 - https://www.ibm.com/docs/en/order-management?topic=services-specifying-http-headers
 - https://www.tutorialrepublic.com/faq/how-to-return-json-from-a-php-script.php
@@ -49,3 +52,9 @@ Helpful resources:
 - https://bobbyhadz.com/blog/javascript-hide-element-after-few-seconds
 - https://www.php.net/manual/en/function.date.php
 - https://stackoverflow.com/questions/7139708/output-raw-xml-using-php
+- https://www.quora.com/How-can-I-update-a-single-record-in-a-JSON-file-using-PHP-files-or-any-other-way-in-PHP
+- https://www.w3schools.com/pHp/func_var_unset.asp
+
+Update notes:
+- You can update the existing secrets too, not just adding new ones to the list.
+- The secrets can be viewed on the online surface only for a given number of times! In case it will get to a given value, the secret will be deleted from the list!
